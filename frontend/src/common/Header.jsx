@@ -33,7 +33,7 @@ const Header = () => {
             <a className="dropdown-item" href="#"><img src="images/flags/germany_flag.jpg" alt height={15} className="me-2" />German</a>
             <a className="dropdown-item" href="#"><img src="images/flags/french_flag.jpg" alt height={15} className="me-2" />French</a>
           </div>
-        </li>{/*end topbar-language*/}
+        </li>
         <li className="dropdown topbar-item">
           <a className="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
             <i className="icofont-bell-alt" />
