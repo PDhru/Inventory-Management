@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:8000/api"; // Replace with your backend's base URL if different
+const API_BASE_URL = "https://inventory-management-mgdb.onrender.com/api"; // Replace with your backend's base URL if different
 
 const api = axios.create({
   baseURL: API_BASE_URL,
