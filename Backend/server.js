@@ -10,7 +10,7 @@ const dotenv = require("dotenv");
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://inventory-management-puce-rho.vercel.app',
   credentials: true
 }));
 dotenv.config();
